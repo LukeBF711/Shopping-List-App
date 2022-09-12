@@ -1,0 +1,116 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* general styles */
+body
+{
+    background-color: #4682B4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* utilities */
+.grid
+{
+    display: grid;
+}
+
+.grid-col-2
+{
+    grid-template-columns: 90% 1fr;
+}
+
+h3
+{
+    font-weight: bold;
+}
+
+hr
+{
+    width: 100%;
+}
+
+i
+{
+    cursor: pointer;
+}
+
+.main-container
+{
+    height: 100vh;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+#inner-container-top
+{
+    background-color: green;
+    padding: 12px;
+    text-align: center;
+}
+
+#inner-container-top > div > input
+{
+    width: 100%;
+    height: 30px;
+    justify-self: start;
+}
+
+#inner-container-top > div> i
+{
+    font-size: 1.5rem;
+    /* background-color: blue; */
+}
+
+#inner-container-top > div
+{
+    width: 100%;
+}
+
+.text-field
+{
+    align-items: center;
+    justify-items: center;
+}
+
+.text-field input
+{
+    border-radius: 10px;
+}
+
+.text-field i
+{
+    padding: 8px 12px;
+}
+
+#inner-container-bottom
+{
+    margin: 20px 10px;
+    /* background-color: coral; */
+}
+
+.item-container
+{
+    padding: 8px 10px;
+}
+
+#inner-container-bottom > h2
+{
+    text-align: center;
+    /* background-color: gray; */
+}
+
+.item-container > div:nth-child(2)
+{
+    /* background-color: yellow; */
+    padding: 8px 12px;
+    justify-self: center;
+    align-self: center;
+}
+
+
+
+
