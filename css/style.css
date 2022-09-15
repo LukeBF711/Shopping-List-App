@@ -17,6 +17,11 @@ body
     display: grid;
 }
 
+.hide
+{
+    display: none;
+}
+
 .grid-col-2
 {
     grid-template-columns: 90% 1fr;
@@ -40,14 +45,16 @@ i
 .main-container
 {
     height: 100vh;
-    width: 50%;
+    width: 35%;
+    border-radius: 10px;
     margin: 0 auto;
     background-color: #fff;
 }
 
 #inner-container-top
 {
-    background-color: green;
+    background-color: #5F9EA0	;
+    border-radius: 10px 10px 0 0;
     padding: 12px;
     text-align: center;
 }
@@ -55,13 +62,17 @@ i
 #inner-container-top > div > input
 {
     width: 100%;
-    height: 30px;
+    font-size: 1.2rem;
+    padding: 8px;
+    border: none;
+    outline: none;
+    height: 35px;
     justify-self: start;
 }
 
-#inner-container-top > div> i
+#inner-container-top > div > i
 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     /* background-color: blue; */
 }
 
@@ -92,25 +103,62 @@ i
     /* background-color: coral; */
 }
 
-.item-container
+.items-container
 {
     padding: 8px 10px;
+    /* background-color: aqua; */
 }
 
-#inner-container-bottom > h2
+#inner-container-bottom > h2,
+#inner-container-bottom > p
 {
     text-align: center;
-    /* background-color: gray; */
 }
 
-.item-container > div:nth-child(2)
+#inner-container-bottom > p
 {
-    /* background-color: yellow; */
+    padding-top: 10px;
+}
+
+/* .item-container > div:nth-child(2)
+{
     padding: 8px 12px;
     justify-self: center;
     align-self: center;
+} */
+
+.item-details
+{
+    background-color: aqua;
 }
 
+/* .items-container i
+{
+    padding: 8px 12px;
+    justify-self: center;
+    align-self: center;
+} */
+
+/* .items-container > div
+{
+    margin: 10px 0;
+} */
+
+.item-row
+{
+    /* background-color: aqua; */
+    padding: 0 20px;
+    height: 50px;
+    align-items: center;
+    box-shadow: 5px 5px 5px #ccc;
+    border-radius: 10px;
+}
+
+.item-row > div
+{
+    box-shadow: 5px 5px 5px #ccc;
+    border-radius: 10px;
+}
 
 
 
